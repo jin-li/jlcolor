@@ -1,6 +1,7 @@
 function jlShowColor(name)
 
 run('jlColorLib.m');
+
 if strcmp(name, 'all')
     k = keys(jlColor);
     ncolor = length(k); % number of goups of color
@@ -42,6 +43,8 @@ if strcmp(name, 'all')
         hold off;
     end
         
+elseif ~isKey(jlColor, name)
+    error("Color set '" + name + "' does NOT exist! Please check your color set name!");
 else
     figure;
     colors = jlColor(name);
