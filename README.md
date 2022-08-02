@@ -22,11 +22,11 @@
 
 ## 下载安装
 
-1. MatLab默认将用户自定义的脚本、函数工具等放在`~/Documents/MATLAB`文件夹下，这里建议将本绘图方案库也放在此文件夹下：
+1. MatLab默认将用户自定义的脚本、函数工具等放在`~/Documents/MATLAB`文件夹下，这里建议将本绘图配色方案库也放在此文件夹下：
     ```bash
     git clone https://github.com/jin-li/jlcolor.git ~/Documents/MATLAB/jlcolor
     ```
-1. 然后将本绘图方案库所在的目录加入到MATLAB的搜索路径中。
+1. 然后将本配色方案库所在的目录加入到MATLAB的搜索路径中。
     ![](./figs/matlab_savepath.png)
     
     也可通过命令搞定。打开MatLab，在命令窗口运行如下命令：
@@ -37,7 +37,7 @@
         ```
     - Linux或macOS用户
         ```matlab
-        addpath([getenv('HOME'),'\Documents\MATLAB\jlcolor']);
+        addpath([getenv('HOME'),'/Documents/MATLAB/jlcolor']);
         savepath;
         ```
 ## 工具简介
@@ -95,8 +95,10 @@
     ```matlab
     jlAddColorFromImage('sunset.jpeg','落日余晖');
     ```
-    然后MatLab就会弹出下图所示的窗口，用鼠标在图片上连续点取所需的颜色即可，选完按回车键结束，就会弹出另一个窗口来展示已成功地创建了这个配色方案！
+    然后MatLab就会弹出下图所示的窗口，用鼠标在图片上连续点取所需的颜色即可：
     ![](./figs/add_color.png)
+    选完按回车键结束，就会弹出另一个窗口来展示已成功地创建了这个配色方案！
+    ![](./figs/sunset.PNG)
 
 ## 鸣谢
 
