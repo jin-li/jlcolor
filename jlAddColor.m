@@ -4,7 +4,7 @@ libFile = which('jlColorLib');
 
 run(libFile);
 if isKey(jlColor, name)
-    error("Color set '" + name + "' already exists! Please use another name!");
+    error("Color scheme '" + name + "' already exists! Please use another name!");
 else
     fout = fopen(libFile,'a+');
     fprintf(fout,"jlColor('" + string(name) + "') = [");
