@@ -30,7 +30,7 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
     git clone https://github.com/jin-li/jlcolor.git ~/Documents/MATLAB/jlcolor
     ```
 1. Then add the path to MATLAB。
-    ![](matlab_savepath.png)
+    ![](./figs/matlab_savepath.png)
     
     You can do it with commands, too. Open MatLab and run following commands in the MatLab command window: 
     - For Windows users
@@ -52,7 +52,7 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
         jlShowColor('all')
         ```
         Then all the color schemes will show up with their names:
-        ![](JLcolor.jpg)
+        ![](./figs/JLcolor.jpg)
     - You can also preview a single color scheme. For example, you can use following command to preview the color scheme named "rainbow":
         ```matlab
         jlShowColor('rainbow')
@@ -74,13 +74,13 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
         end
         ```
         Here is how the plot looks like: 
-        ![](rainbow.jpg)
+        ![](./figs/rainbow.jpg)
 
 
 - **Self-define and Save a Color Scheme**
     
     - The color schemes are stored in file `jlColorLib.m`. Users can add color schemes to the file. For example, the default color scheme in MatLab is:
-    ![](matlab_color.png)
+    ![](./figs/matlab_color.png)
     One can add the hex code of the seven colors to `jlColorLib.m` by mimicing the existing color schemes in the file. So you can add another line in `jlColorLib.m`:
         ```matlab
         jlColor('matlab') = ['#0072BD';'#D95319';'#EDB120';'#7E2F8E';'#77AC30';'#4DBEEE';'#A2142F'];
@@ -102,9 +102,9 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
     ```
 
     Then a window like below will pop out. And you can click on it with your mouse for the colors you need: 
-    ![](add_color.png)
+    ![](./figs/add_color.png)
     Press `Enter` key when you are done selecting the points. Then another window showing the color scheme being created successfully will pop out! 
-    ![](sunset.PNG)
+    ![](./figs/sunset.PNG)
 
 ## Acknowledgement
 
