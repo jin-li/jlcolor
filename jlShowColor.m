@@ -44,7 +44,7 @@ if strcmp(name, 'all')
     end
         
 elseif ~isKey(jlColor, name)
-    error("Color set '" + name + "' does NOT exist! Please check your color set name!");
+    error("Color scheme '" + name + "' does NOT exist! Please check your color scheme name!");
 else
     figure;
     colors = jlColor(name);
