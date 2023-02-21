@@ -29,7 +29,7 @@
     git clone https://github.com/jin-li/jlcolor.git ~/Documents/MATLAB/jlcolor
     ```
 1. 然后将本配色方案库所在的目录加入到MATLAB的搜索路径中。
-    ![](./figs/matlab_savepath.png)
+    ![](https://img.jinli.cyou/images/2023/02/20/matlab_savepath.md.png)
     
     也可通过命令搞定。打开MatLab，在命令窗口运行如下命令：
     - Windows用户
@@ -50,7 +50,7 @@
         jlShowColor('all')
         ```
         库中的配色方案和它们的名字将会展示出来：
-        ![](./figs/JLcolor.jpg)
+        ![](https://img.jinli.cyou/images/2023/02/20/JLcolor.md.jpg)
     - 也可预览单个配色方案，例如预览名为“彩虹”的配色方案，就可以在命令窗口运行如下命令：
         ```matlab
         jlShowColor('彩虹')
@@ -72,13 +72,13 @@
         end
         ```
         效果如下图：
-        ![](./figs/rainbow.jpg)
+        ![](https://img.jinli.cyou/images/2023/02/20/rainbow.md.jpg)
 
 
 - **自定义并保存配色方案**
     
     - 本配色方案库中各个配色方案保存在`jlColorLib.m`中，用户可以手动往`jlColorLib.m`文件中添加配色方案。例如MatLab中默认的几种配色如下：
-    ![](./figs/matlab_color.png)
+    ![](https://img.jinli.cyou/images/2023/02/20/matlab_color.md.png)
     用户可以将这7种颜色的十六进制码按照`jlColorLib.m`中已有配色方案的写法添加进去，即在`jlColorLib.m`文件中添加一行
         ```matlab
         jlColor('matlab') = ['#0072BD';'#D95319';'#EDB120';'#7E2F8E';'#77AC30';'#4DBEEE';'#A2142F'];
@@ -98,9 +98,9 @@
     jlAddColorFromImage('sunset.jpeg','落日余晖');
     ```
     然后MatLab就会弹出下图所示的窗口，用鼠标在图片上连续点取所需的颜色即可：
-    ![](./figs/add_color.png)
+    ![](https://img.jinli.cyou/images/2023/02/20/add_color.md.png)
     选完按回车键结束，就会弹出另一个窗口来展示已成功地创建了这个配色方案！
-    ![](./figs/sunset.PNG)
+    ![](https://img.jinli.cyou/images/2023/02/20/sunset.md.png)
 
 ## 鸣谢
 

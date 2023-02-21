@@ -30,7 +30,7 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
     git clone https://github.com/jin-li/jlcolor.git ~/Documents/MATLAB/jlcolor
     ```
 1. Then add the path to MATLAB。
-    ![](./figs/matlab_savepath.png)
+    ![](https://img.jinli.cyou/images/2023/02/20/matlab_savepath.md.png)
     
     You can do it with commands, too. Open MatLab and run following commands in the MatLab command window: 
     - For Windows users
@@ -52,7 +52,7 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
         jlShowColor('all')
         ```
         Then all the color schemes will show up with their names:
-        ![](./figs/JLcolor.jpg)
+        ![](https://img.jinli.cyou/images/2023/02/20/JLcolor.md.jpg)
     - You can also preview a single color scheme. For example, you can use following command to preview the color scheme named "rainbow":
         ```matlab
         jlShowColor('rainbow')
@@ -74,13 +74,13 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
         end
         ```
         Here is how the plot looks like: 
-        ![](./figs/rainbow.jpg)
+        ![](https://img.jinli.cyou/images/2023/02/20/rainbow.md.jpg)
 
 
 - **Self-define and Save a Color Scheme**
     
     - The color schemes are stored in file `jlColorLib.m`. Users can add color schemes to the file. For example, the default color scheme in MatLab is:
-    ![](./figs/matlab_color.png)
+    ![](https://img.jinli.cyou/images/2023/02/20/matlab_color.md.png)
     One can add the hex code of the seven colors to `jlColorLib.m` by mimicing the existing color schemes in the file. So you can add another line in `jlColorLib.m`:
         ```matlab
         jlColor('matlab') = ['#0072BD';'#D95319';'#EDB120';'#7E2F8E';'#77AC30';'#4DBEEE';'#A2142F'];
@@ -102,9 +102,9 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
     ```
 
     Then a window like below will pop out. And you can click on it with your mouse for the colors you need: 
-    ![](./figs/add_color.png)
+    ![](https://img.jinli.cyou/images/2023/02/20/add_color.md.png)
     Press `Enter` key when you are done selecting the points. Then another window showing the color scheme being created successfully will pop out! 
-    ![](./figs/sunset.PNG)
+    ![](https://img.jinli.cyou/images/2023/02/20/sunset.md.png)
 
 ## Acknowledgement
 
