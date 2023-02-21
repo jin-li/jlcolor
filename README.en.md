@@ -103,6 +103,7 @@ Sometimes the default MatLab colors for plottings are not satisfactory and I wou
 
     Then a window like below will pop out. And you can click on it with your mouse for the colors you need: 
     ![](https://img.jinli.cyou/images/2023/02/20/add_color.md.png)
+    
     Press `Enter` key when you are done selecting the points. Then another window showing the color scheme being created successfully will pop out! 
     ![](https://img.jinli.cyou/images/2023/02/20/sunset.md.png)
 

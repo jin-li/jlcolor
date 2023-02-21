@@ -99,6 +99,7 @@
     ```
     然后MatLab就会弹出下图所示的窗口，用鼠标在图片上连续点取所需的颜色即可：
     ![](https://img.jinli.cyou/images/2023/02/20/add_color.md.png)
+    
     选完按回车键结束，就会弹出另一个窗口来展示已成功地创建了这个配色方案！
     ![](https://img.jinli.cyou/images/2023/02/20/sunset.md.png)
 
