@@ -1,6 +1,8 @@
 # Customizable MatLab Color Scheme Library
 
-Language : 🇺🇸 | [🇨🇳](./README.md)
+Language : English 🇺🇸 | [简体中文 🇨🇳](./README.md)
+
+语言：English 🇺🇸 | [简体中文 🇨🇳](./README.md)
 
 ## Motivation
 
