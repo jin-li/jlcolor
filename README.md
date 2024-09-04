@@ -1,8 +1,8 @@
 # MatLab自定义配色方案库 jlcolor
 
-语言 : 🇨🇳 | [English 🇺🇸](./README.en.md)
+语言 : 简体中文 🇨🇳 | [English 🇺🇸](./README.en.md)
 
-Language: 🇨🇳 | [English 🇺🇸](./README.en.md)
+Language: 简体中文 🇨🇳 | [English 🇺🇸](./README.en.md)
 
 ## 缘起
 
